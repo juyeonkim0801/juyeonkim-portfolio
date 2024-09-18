@@ -571,6 +571,19 @@ nav ul li a.active:hover {
   -o-background-size: cover;
   background-size: cover;
 }
+.parallax-kc {
+  background-color: #FFFFFF;
+  background-image: url("../images/kittycrush/kitty-crush-screenshot.jpg");
+  height: 60vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 .wrapper {
   position: relative;
@@ -678,6 +691,18 @@ nav ul li a.active:hover {
 		-o-background-size: cover;
 		background-size: cover;
   }
+.parallax-kc {
+	background-color: #FFFFFF;
+	background-image: url("../images/kittycrush/kitty-crush-screenshot.jpg");
+	height: 60vh;
+	background-attachment: fixed;
+	background-position: center;
+    	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 }
 
 @media (any-pointer: none), (any-pointer: coarse), (any-hover: none), (any-hover: on-demand){
@@ -685,6 +710,10 @@ nav ul li a.active:hover {
     background-attachment: scroll;
     background-image: url("../images/gw/gw-largesplash.png");
   }
+	.parallax-kc {
+	background-attachment: scroll;
+	background-image: url("../images/kittycrush/kitty-crush-screenshot.jpg");
+	}
 }
 
 @media (max-width: 50em){
